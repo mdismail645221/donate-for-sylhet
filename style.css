@@ -26,7 +26,7 @@ a{
 .d-flex{
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items:center;
 }
 .title-box {
     text-align: center;
@@ -43,6 +43,11 @@ a{
 }
 h3{
     padding: 10px 0px;
+}
+
+a.links-items{
+    text-decoration: underline;
+    color: rgb(34, 106, 249);
 }
 
 /* ======header-area========= */
@@ -67,8 +72,11 @@ h3{
 }
 .header-text-area h1{
     padding: 25px;
-    font-size: 50px;
+    margin-bottom: 2%;
+    font-size: 4rem;
     font-weight: 600;
+    line-height: 22px;
+
 }
 a.btn-box {
     color: #fff;
@@ -160,11 +168,22 @@ input.input-text:focus{
     padding: 13px;
     margin-right: 10px;
     /* background: coral; */
+    border-top: 8px solid red;
 }
 #food{
+    border-top: 7px solid blue;
     background-color: coral;
     border: 1px solid coral;
     border-radius: 10px;
+}
+div#food{
+    border-left: 7px solid blue;
+}
+div#shelter{
+    border-left: 7px solid blue;
+}
+div#clothes{
+    border-left: 7px solid blue;
 }
 /* #food:hover{
     box-shadow: 5px 3px 5px coral;
@@ -188,6 +207,39 @@ input.input-text:focus{
     border: 1px solid ;
     border-radius: 10px;
 }
+
+/* ==============flooded-sylhet-area================ */
+
+.flooded-items{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 5%;
+    background-color: #eee;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.single-title{
+    padding-left: 3%;
+    flex-basis: 48%;
+    padding-top: 30px;
+}
+.single-title img{
+    width: 100%;
+}
+.single-title h1 {font-size: 1.9rem;padding: 0 0;line-height: normal;}
+
+.single-title p {
+    /* padding: 20px 0; */
+    margin: 40px 0;
+    text-align: justify;
+}
+
+/* ==========flood-victims-area========== */
+.flood-victims-area{
+    background-image: linear-gradient(rgb(121, 232, 246), rgb(197, 197, 141), rgb(251, 249, 248));
+}
+
 
 /* ==========updates-area=========== */
 
@@ -218,12 +270,12 @@ input#email:focus {
 
 }
 .updates-input-box {
-    background: #f28f49;
+    background: #eb6507;
     padding: 3.45rem;
     width: 80%;
     margin-left: 7%;
-    box-shadow: 10px 10px 30px #f28f49;
-    border: 1.5px solid #f28f49;
+    box-shadow: 10px 10px 30px #eb6507;
+    border: 1.5px solid #eb6507;
     border-radius: 10px;
 }
 
