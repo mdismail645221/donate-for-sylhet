@@ -223,6 +223,7 @@ div#clothes{
     padding-left: 3%;
     flex-basis: 48%;
     padding-top: 30px;
+    padding-right: 2%;
 }
 .single-title img{
     width: 100%;
@@ -242,7 +243,9 @@ div#clothes{
 
 
 /* ==========updates-area=========== */
-
+.updates-area{
+    padding-top: 3%;
+}
 .updates-input-box{
     display: flex;
     justify-content: center;
