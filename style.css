@@ -109,13 +109,19 @@ a.btn-box:hover {
     width: 90%;
     padding-left: 5%;
 }
+#single_donate{
+    border: 1px solid #FF5959;
+    padding: 3.9rem;
+    transition: 0.5s;
+    background-color: #FFEEEE;
+}
 .single-donate-items{
     border: 1px solid #ddd;
     padding: 3.9rem;
     transition: 0.5s;
     background-color: #FAFAFA;
 }
-.single-donate-items:hover {
+.single-donate-items:hover,#single_donate:hover {
     color: red;
     font-size: 1.5rem;
     background-color: #FFEEEE;
